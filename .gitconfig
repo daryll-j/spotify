@@ -1,2 +1,5 @@
 [user]
-	name = [Daryll Johnston]
+	name = Daryll Johnston
+	email = darylljohnston@gmail.com
+[color]
+	ui = auto
