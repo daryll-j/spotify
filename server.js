@@ -6,7 +6,11 @@ const app = express();
 
 //need cache for spotify stuff???
 
-//
+//need spotify authentication
+
+//need routes
+
+
 // our default array of dreams
 const dreams = [
   "Find and count some sheep",
@@ -17,6 +21,8 @@ const dreams = [
 // make all the files in 'public' available
 // https://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));
+
+
 
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
